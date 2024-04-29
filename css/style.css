@@ -7,10 +7,37 @@
 
 
 /**-------Header----------**/
-.bienvenidos{
-    display: grid;
-    object-fit: cover;
-
+.flores {
+    position: relative;
+    display: inline-block;
+}
+.titulo {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    font-size: 90px;
+    font-weight: bold;
+    color: rgba(235, 50, 50, 0.992);
+    border-radius: 10px;
+}
+.encabezado{
+    position: absolute;
+    top: 280px;
+}
+.barra {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(247, 78, 78, 0.992);
+    border-radius: 15px;
 }
 .bienvenidos {
     position: relative;
@@ -126,6 +153,21 @@ div{
     bottom: 105px;
     display: grid;
 }
+.servicio4 a{
+    position: relative;
+    bottom: 105px;
+    display: grid;
+}
+.servicio5 a{
+    position: relative;
+    bottom: 105px;
+    display: grid;
+}
+.servicio6 a{
+    position: relative;
+    bottom: 105px;
+    display: grid;
+}
 
 h3  {
     color: lightcoral;
@@ -157,6 +199,10 @@ h4  {
     justify-content: left;
 
 }
+
+
+
+
 
 
 /**-------Footer----------**/
